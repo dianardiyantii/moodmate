@@ -13,7 +13,7 @@ export default async function LoginView() {
   return `
     <section class="max-w-md mx-auto mt-20 p-8 bg-white rounded-2xl shadow-lg border border-gray-200 dark:bg-gray-900 dark:border-gray-700">
       <!-- Form Login -->
-      <h2 class="text-3xl font-extrabold text-center text-blue-600 mb-8 dark:text-blue-400">Login</h2>
+      <h2 class="text-3xl font-extrabold text-center text-blue-600 mb-8 dark:text-blue-400">Masuk</h2>
       <form id="form-login" class="space-y-6">
         <input
           type="email"

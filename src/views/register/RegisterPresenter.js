@@ -102,7 +102,7 @@ export default function RegisterPresenter() {
           const result = await ApiService.register({ name, email, password });
 
           if (result.success) {
-            showNotification("Registrasi berhasil! Silakan login.", "success");
+            showNotification("Registrasi berhasil! Silakan Masuk.", "success");
             form.reset();
             setTimeout(() => {
               window.location.hash = "/login";
