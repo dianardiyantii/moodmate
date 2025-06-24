@@ -65,7 +65,7 @@ async def startup_event():
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://moodmate.up.railway.app"],  
+    allow_origins=["https://moodmateapp.up.railway.app"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -122,7 +122,7 @@ const init = async () => {
     host: "0.0.0.0",
     routes: {
       cors: {
-        origin: ["https://moodmate.up.railway.app"], 
+        origin: ["https://moodmateapp.up.railway.app"], 
         credentials: true,
         headers: ["Accept", "Content-Type", "If-None-Match", "x-session-id"],
         exposedHeaders: ["WWW-Authenticate", "Server-Authorization"],
@@ -141,7 +141,7 @@ const init = async () => {
 
       response.header(
         "Access-Control-Allow-Origin",
-        "https://moodmate.up.railway.app"
+        "https://moodmateapp.up.railway.app"
       );
       response.header(
         "Access-Control-Allow-Headers",
