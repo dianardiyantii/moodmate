@@ -55,7 +55,7 @@ export const renderNavbar = () => {
 
       ${
         !isLoggedIn
-          ? `<li><a href="#/" class="${getActiveClass("#/")}">Home</a></li>
+          ? `<li><a href="#/" class="${getActiveClass("#/")}">Beranda</a></li>
            <li><a href="#/about" class="${getActiveClass(
              "#/about"
            )}">About</a></li>
@@ -154,7 +154,7 @@ export const renderNavbar = () => {
           !isLoggedIn
             ? `<a href="#/" class="${getMobileActiveClass(
                 "#/"
-              )}" data-close-menu><i class="fas fa-home mr-2"></i> Home</a>
+              )}" data-close-menu><i class="fas fa-home mr-2"></i> Beranda</a>
              <a href="#/about" class="${getMobileActiveClass(
                "#/about"
              )}" data-close-menu><i class="fas fa-info-circle mr-2"></i> About</a>
