@@ -1,0 +1,242 @@
+# Dependencies
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python Virtual Environment
+venv/
+*/venv/
+env/
+*/env/
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Machine Learning Models (large files)
+*.h5
+*.pkl
+*.joblib
+*.model
+*.weights
+*.bin
+*.onnx
+*.pb
+*.tflite
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# ===== SECURITY & CREDENTIALS =====
+# Firebase & Google Cloud Service Account Keys
+serviceAccountKey.json
+**/serviceAccountKey.json
+server/utilserver/serviceAccountKey.json
+firebase-adminsdk-*.json
+**/firebase-adminsdk-*.json
+
+# Google Cloud Credentials
+google-credentials.json
+**/google-credentials.json
+gcloud-service-key.json
+**/gcloud-service-key.json
+
+# AWS Credentials
+.aws/
+aws-credentials.json
+**/aws-credentials.json
+
+# API Keys & Secrets
+.secrets
+.secrets.json
+**/secrets.json
+api-keys.json
+**/api-keys.json
+config/secrets.js
+config/keys.js
+
+# Database Connection Strings
+database.json
+**/database.json
+db-config.json
+**/db-config.json
+
+# SSL/TLS Certificates & Keys
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# SSH Keys
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+*.ssh/
+
+# OAuth & JWT Secrets
+oauth.json
+jwt-secret.js
+**/oauth.json
+**/jwt-secret.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+public/build/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.history/
+.vscode/settings.json
+
+# Temporary folders
+tmp/
+temp/
+.temp/
+.tmp/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# TensorFlow
+*.tfstate
+*.tfstate.*
+
+# Matplotlib
+.matplotlib/
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Mobile Development
+*.apk
+*.aab
+*.ipa
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Package files
+*.tar.gz
+*.zip
+*.rar
+*.7z

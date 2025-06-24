@@ -1,0 +1,90 @@
+{
+  "name": "MoodMate - Deteksi Mood",
+  "short_name": "MoodMate",
+  "description": "Tulis ceritamu dan biarkan kami memahami suasana hatimu. Dapatkan rekomendasi lagu dan aktivitas yang cocok untukmu.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "images/icons/icon-x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icons/maskable-icon-x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Catatan Baru",
+      "short_name": "Tulis Catatan",
+      "description": "Buat catatan mood baru",
+      "url": "/#/journal",
+      "icons": [
+        {
+          "src": "images/icons/add-x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Riwayat Catatan",
+      "short_name": "Riwayat",
+      "description": "Lihat catatan mood sebelumnya",
+      "url": "/#/riwayat",
+      "icons": [
+        {
+          "src": "images/icons/history-x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshots/MoodMate_001.png",
+      "sizes": "1280x695",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/MoodMate_002.png",
+      "sizes": "1280x695",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/MoodMate_003.png",
+      "sizes": "1280x695",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "images/screenshots/MoodMate_004.png",
+      "sizes": "600x1000",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/MoodMate_005.png",
+      "sizes": "600x1000",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshots/MoodMate_006.png",
+      "sizes": "600x1000",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}

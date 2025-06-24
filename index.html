@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MoodMate - Deteksi Mood" />
+    <meta name="theme-color" content="#2563eb" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <link rel="manifest" href="app.webmanifest" />
+    
+    <title>MoodMate</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+      .skip-to-content {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        background: #3b82f6;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 4px;
+        z-index: 100;
+        transition: top 0.3s ease;
+        font-weight: 600;
+      }
+
+      .skip-to-content:focus {
+        top: 10px;
+        outline: 3px solid #93c5fd;
+        outline-offset: 2px;
+      }
+
+      .skip-to-content:hover {
+        background: #2563eb;
+        text-decoration: none;
+      }
+
+      [tabindex="0"]:focus,
+      input:focus,
+      button:focus,
+      textarea:focus {
+        outline: 3px solid #93c5fd;
+        outline-offset: 2px;
+      }
+    </style>
+  </head>
+  <body class="bg-white dark:bg-gray-900 text-black dark:text-white">
+    <a
+      href="#main-content"
+      class="skip-to-content"
+      id="skip-to-content-link"
+      tabindex="0"
+      >Lompat ke Konten</a
+    >
+
+    <div id="app" class="min-h-screen"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const skipLink = document.getElementById("skip-to-content-link");
+
+        skipLink.addEventListener("click", (e) => {
+          e.preventDefault();
+          handleSkipToContent();
+        });
+
+        skipLink.addEventListener("keydown", (e) => {
+          if (e.key === " " || e.key === "Spacebar") {
+            e.preventDefault();
+            handleSkipToContent();
+          }
+        });
+      });
+
+      function handleSkipToContent() {
+        const mainContent = document.getElementById("main-content");
+        if (mainContent) {
+          mainContent.setAttribute("tabindex", "-1");
+          mainContent.focus();
+          window.scrollTo({
+            top: mainContent.offsetTop - 20,
+            behavior: "smooth",
+          });
+        }
+      }
+    </script>
+  </body>
+</html>
