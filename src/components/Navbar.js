@@ -58,7 +58,7 @@ export const renderNavbar = () => {
           ? `<li><a href="#/" class="${getActiveClass("#/")}">Beranda</a></li>
            <li><a href="#/about" class="${getActiveClass(
              "#/about"
-           )}">About</a></li>
+           )}">Tentang</a></li>
            <li><a href="#/contact" class="${getActiveClass(
              "#/contact"
            )}">Contact</a></li>
@@ -157,7 +157,7 @@ export const renderNavbar = () => {
               )}" data-close-menu><i class="fas fa-home mr-2"></i> Beranda</a>
              <a href="#/about" class="${getMobileActiveClass(
                "#/about"
-             )}" data-close-menu><i class="fas fa-info-circle mr-2"></i> About</a>
+             )}" data-close-menu><i class="fas fa-info-circle mr-2"></i> Tentang</a>
              <a href="#/contact" class="${getMobileActiveClass(
                "#/contact"
              )}" data-close-menu><i class="fas fa-phone mr-2"></i> Contact</a>
